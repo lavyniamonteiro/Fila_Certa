@@ -1,8 +1,9 @@
 <div align="center">
 
-![Capa do Fila Certa](docs/diagramas/capa-fila-certa.png)
+<img width="1650" height="560" alt="capa-fila-certa" src="https://github.com/user-attachments/assets/fac1a91b-8aa0-4380-8006-1e53ef627d2b" />
 
 # Fila Certa
+
 
 ### Seu horário organizado, seu atendimento no tempo certo
 
