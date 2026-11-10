@@ -43,7 +43,7 @@ Pagamento, prontuário, aplicativo nativo, franquias, mensagens automáticas e i
 
 O piloto foi pensado para um estabelecimento. Uma aplicação web modular atende clientes e equipe; uma API concentra as regras; e o banco relacional mantém agenda, cadastros e histórico.
 
-![Diagrama de contexto do Fila Certa](docs/diagramas/c4-contexto.png)
+<img width="2400" height="1500" alt="c4-contexto" src="https://github.com/user-attachments/assets/c0e6a664-64a5-49c8-b32f-94af1128db23" />
 
 ### Tecnologias planejadas
 
@@ -56,29 +56,6 @@ O piloto foi pensado para um estabelecimento. Uma aplicação web modular atende
 | Versionamento | Git e GitHub | Registrar mudanças e permitir revisão colaborativa |
 
 Essas tecnologias fazem parte do desenho proposto; a implementação ainda não existe neste repositório.
-
-## Como o trabalho está organizado
-
-| Caminho | Conteúdo |
-|---|---|
-| [`docs/Fila-Certa-final.docx`](docs/Fila-Certa-final.docx) | Documento editável com os blocos do trabalho e diagramas |
-| [`docs/projeto-final.md`](docs/projeto-final.md) | Fonte Markdown do documento técnico |
-| [`docs/guia-simples-do-projeto-fila-certa.md`](docs/guia-simples-do-projeto-fila-certa.md) | Explicação do projeto em linguagem simples |
-| [`docs/guia-simples-do-enunciado.md`](docs/guia-simples-do-enunciado.md) | Explicação dos blocos e termos pedidos pelo professor |
-| [`docs/diagramas/`](docs/diagramas/) | Diagramas C4, UML e modelo entidade-relacionamento |
-| [`docs/openapi.yaml`](docs/openapi.yaml) | Especificação formal proposta para a API |
-| [`database/V1__core.sql`](database/V1__core.sql) | Estrutura inicial proposta para o banco de dados |
-| [`docs/dicionario-de-dados.md`](docs/dicionario-de-dados.md) | Significado e características dos campos do banco |
-
-## Como conferir os artefatos
-
-Para validar a estrutura do contrato da API, com Python e as dependências do projeto disponíveis, execute:
-
-```bash
-python scripts/validate_openapi.py
-```
-
-O esquema SQL pode ser aplicado somente em um banco PostgreSQL de teste vazio. A aplicação web, o Compose de desenvolvimento e os testes da aplicação serão criados em uma etapa futura.
 
 ## Equipe
 
